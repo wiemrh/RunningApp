@@ -38,6 +38,9 @@ class TrackingFragment : Fragment(R.layout.fragment_tracking) {
             requireContext().startService(it)
         }
 
+
+
+
     override fun onResume() {
         super.onResume()
         mapView?.onResume()
